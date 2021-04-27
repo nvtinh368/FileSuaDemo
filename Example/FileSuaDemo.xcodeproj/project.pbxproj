@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		197D3364EDD016E7B53EE38D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		197D3364EDD016E7B53EE38D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2826F9E02BED9F86F41405E2 /* Pods_FileSuaDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileSuaDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C267D711034DCCE596AFBC /* Pods-FileSuaDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileSuaDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-FileSuaDemo_Example/Pods-FileSuaDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FileSuaDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileSuaDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* FileSuaDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSuaDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63F2939BE010D2C6A6EA3F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63F2939BE010D2C6A6EA3F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8984F68400386A5EEFB0D35B /* Pods_FileSuaDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileSuaDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB21AECC671E73D075476E5 /* Pods-FileSuaDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileSuaDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-FileSuaDemo_Tests/Pods-FileSuaDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE629D7A21171BD8A2E16B16 /* Pods-FileSuaDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileSuaDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FileSuaDemo_Tests/Pods-FileSuaDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4EDC212E76AF13CC7585245 /* FileSuaDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FileSuaDemo.podspec; path = ../FileSuaDemo.podspec; sourceTree = "<group>"; };
+		D4EDC212E76AF13CC7585245 /* FileSuaDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FileSuaDemo.podspec; path = ../FileSuaDemo.podspec; sourceTree = "<group>"; };
 		EF6253EC9A06D254F9FD58F7 /* Pods-FileSuaDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileSuaDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-FileSuaDemo_Example/Pods-FileSuaDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				CE629D7A21171BD8A2E16B16 /* Pods-FileSuaDemo_Tests.debug.xcconfig */,
 				9AB21AECC671E73D075476E5 /* Pods-FileSuaDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4L68UJ2JT3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +479,7 @@
 			baseConfigurationReference = EF6253EC9A06D254F9FD58F7 /* Pods-FileSuaDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L68UJ2JT3;
 				INFOPLIST_FILE = FileSuaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 59C267D711034DCCE596AFBC /* Pods-FileSuaDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L68UJ2JT3;
 				INFOPLIST_FILE = FileSuaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
